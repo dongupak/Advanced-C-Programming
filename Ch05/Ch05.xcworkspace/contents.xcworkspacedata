@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ScoreArray/ScoreArray.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ArrayMemory/ArrayMemory.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MallocBasic1/MallocBasic1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MallocBasic/MallocBasic.xcodeproj">
+   </FileRef>
+</Workspace>

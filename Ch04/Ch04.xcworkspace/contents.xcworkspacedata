@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Swap2/Swap2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Swap1/Swap1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FunctionParamPointer/FunctionParamPointer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FunctionParam/FunctionParam.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FunctionBasic/FunctionBasic.xcodeproj">
+   </FileRef>
+</Workspace>
