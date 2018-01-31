@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>QuickSortLib.xcscheme</key>
+		<key>ShellSort.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>FA2E998F1E010E5F00A0A11B</key>
+		<key>FA715F471EB721150048AD88</key>
 		<dict>
 			<key>primary</key>
 			<true/>

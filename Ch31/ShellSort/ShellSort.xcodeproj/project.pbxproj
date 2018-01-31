@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA2E99941E010E5F00A0A11B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FA2E99931E010E5F00A0A11B /* main.c */; };
+		FA715F4C1EB721150048AD88 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FA715F4B1EB721150048AD88 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		FA2E998E1E010E5F00A0A11B /* CopyFiles */ = {
+		FA715F461EB721150048AD88 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FA2E99901E010E5F00A0A11B /* QuickSortLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QuickSortLib; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA2E99931E010E5F00A0A11B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FA715F481EB721150048AD88 /* ShellSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ShellSort; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA715F4B1EB721150048AD88 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FA2E998D1E010E5F00A0A11B /* Frameworks */ = {
+		FA715F451EB721150048AD88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,99 +38,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA2E99871E010E5F00A0A11B = {
+		FA715F3F1EB721150048AD88 = {
 			isa = PBXGroup;
 			children = (
-				FA2E99921E010E5F00A0A11B /* QuickSortLib */,
-				FA2E99911E010E5F00A0A11B /* Products */,
+				FA715F4A1EB721150048AD88 /* ShellSort */,
+				FA715F491EB721150048AD88 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FA2E99911E010E5F00A0A11B /* Products */ = {
+		FA715F491EB721150048AD88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA2E99901E010E5F00A0A11B /* QuickSortLib */,
+				FA715F481EB721150048AD88 /* ShellSort */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA2E99921E010E5F00A0A11B /* QuickSortLib */ = {
+		FA715F4A1EB721150048AD88 /* ShellSort */ = {
 			isa = PBXGroup;
 			children = (
-				FA2E99931E010E5F00A0A11B /* main.c */,
+				FA715F4B1EB721150048AD88 /* main.c */,
 			);
-			path = QuickSortLib;
+			path = ShellSort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA2E998F1E010E5F00A0A11B /* QuickSortLib */ = {
+		FA715F471EB721150048AD88 /* ShellSort */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA2E99971E010E5F00A0A11B /* Build configuration list for PBXNativeTarget "QuickSortLib" */;
+			buildConfigurationList = FA715F4F1EB721150048AD88 /* Build configuration list for PBXNativeTarget "ShellSort" */;
 			buildPhases = (
-				FA2E998C1E010E5F00A0A11B /* Sources */,
-				FA2E998D1E010E5F00A0A11B /* Frameworks */,
-				FA2E998E1E010E5F00A0A11B /* CopyFiles */,
+				FA715F441EB721150048AD88 /* Sources */,
+				FA715F451EB721150048AD88 /* Frameworks */,
+				FA715F461EB721150048AD88 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = QuickSortLib;
-			productName = QuickSortLib;
-			productReference = FA2E99901E010E5F00A0A11B /* QuickSortLib */;
+			name = ShellSort;
+			productName = ShellSort;
+			productReference = FA715F481EB721150048AD88 /* ShellSort */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FA2E99881E010E5F00A0A11B /* Project object */ = {
+		FA715F401EB721150048AD88 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = ProfPark;
 				TargetAttributes = {
-					FA2E998F1E010E5F00A0A11B = {
-						CreatedOnToolsVersion = 8.1;
+					FA715F471EB721150048AD88 = {
+						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = FA2E998B1E010E5F00A0A11B /* Build configuration list for PBXProject "QuickSortLib" */;
+			buildConfigurationList = FA715F431EB721150048AD88 /* Build configuration list for PBXProject "ShellSort" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = FA2E99871E010E5F00A0A11B;
-			productRefGroup = FA2E99911E010E5F00A0A11B /* Products */;
+			mainGroup = FA715F3F1EB721150048AD88;
+			productRefGroup = FA715F491EB721150048AD88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA2E998F1E010E5F00A0A11B /* QuickSortLib */,
+				FA715F471EB721150048AD88 /* ShellSort */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FA2E998C1E010E5F00A0A11B /* Sources */ = {
+		FA715F441EB721150048AD88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA2E99941E010E5F00A0A11B /* main.c in Sources */,
+				FA715F4C1EB721150048AD88 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FA2E99951E010E5F00A0A11B /* Debug */ = {
+		FA715F4D1EB721150048AD88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -144,7 +145,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -173,11 +174,12 @@
 			};
 			name = Debug;
 		};
-		FA2E99961E010E5F00A0A11B /* Release */ = {
+		FA715F4E1EB721150048AD88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -191,7 +193,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -213,14 +215,14 @@
 			};
 			name = Release;
 		};
-		FA2E99981E010E5F00A0A11B /* Debug */ = {
+		FA715F501EB721150048AD88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		FA2E99991E010E5F00A0A11B /* Release */ = {
+		FA715F511EB721150048AD88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -230,24 +232,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA2E998B1E010E5F00A0A11B /* Build configuration list for PBXProject "QuickSortLib" */ = {
+		FA715F431EB721150048AD88 /* Build configuration list for PBXProject "ShellSort" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA2E99951E010E5F00A0A11B /* Debug */,
-				FA2E99961E010E5F00A0A11B /* Release */,
+				FA715F4D1EB721150048AD88 /* Debug */,
+				FA715F4E1EB721150048AD88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA2E99971E010E5F00A0A11B /* Build configuration list for PBXNativeTarget "QuickSortLib" */ = {
+		FA715F4F1EB721150048AD88 /* Build configuration list for PBXNativeTarget "ShellSort" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA2E99981E010E5F00A0A11B /* Debug */,
-				FA2E99991E010E5F00A0A11B /* Release */,
+				FA715F501EB721150048AD88 /* Debug */,
+				FA715F511EB721150048AD88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FA2E99881E010E5F00A0A11B /* Project object */;
+	rootObject = FA715F401EB721150048AD88 /* Project object */;
 }

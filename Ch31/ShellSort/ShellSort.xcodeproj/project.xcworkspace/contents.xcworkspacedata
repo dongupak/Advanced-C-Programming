@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:QuickSortLib.xcodeproj">
+      location = "self:ShellSort.xcodeproj">
    </FileRef>
 </Workspace>
